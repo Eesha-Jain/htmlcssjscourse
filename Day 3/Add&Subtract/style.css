@@ -1,0 +1,28 @@
+button {
+	padding: 300px, 50px;
+	text-align: center;
+	border-radius: 50px;
+	background-color: #eb34d2;
+	color: white;
+	height: 50px;
+	width: 100px;
+	font-family: Roboto;
+	font-size: 16px;
+	display: inline-block;
+	margin: 50px;
+}
+
+html {
+	background-color:#ebffe6;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+	font-size: 100px;
+	font-family: Roboto;
+}
+
+.centered {
+	text-align: center;
+}

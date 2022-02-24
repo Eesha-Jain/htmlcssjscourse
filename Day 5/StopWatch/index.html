@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>StopWatch</title>
+		
+		
+		<script src="script.js"></script>
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">		
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+		<div id="center">
+			<div id="container">
+				<h1>Stopwatch</h1>
+				<h2 id="time"><span id="seconds">00</span>:<span id="milliseconds">00</span></h2>
+				<button type="button" class="button" onclick="myTimer = setInterval(timer, 1)">Start</button>
+				<button type="button" class="button" onclick="clearInterval(myTimer)">Stop</button>
+				<button type="button" class="button" onclick="reset()">Reset</button>
+			</div>
+		</div>
+	</body>
+</html>

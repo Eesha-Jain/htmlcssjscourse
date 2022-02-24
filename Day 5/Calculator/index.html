@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+				
+		<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	
+	<body>
+		<div id="center">
+			<div id="container">
+				<h3 id="output"></h3>
+				<!--Line 1-->
+				<button type="button" class="num" value="1" onclick="space('1')">1</button>
+				<button type="button" class="num" value="2" onclick="space('2')">2</button>
+				<button type="button" class="num" value="3" onclick="space('3')">3</button>
+				<button type="button" class="operator" value="+" onclick="space('+')">+</button><br>
+				
+				<!--Line 2-->
+				<button type="button" class="num" value="4" onclick="space('4')">4</button>
+				<button type="button" class="num" value="5" onclick="space('5')">5</button>
+				<button type="button" class="num" value="6" onclick="space('6')">6</button>
+				<button type="button" class="operator" value="-" onclick="space('-')">-</button><br>
+				
+				<!--Line 3-->
+				<button type="button" class="num" value="7" onclick="space('7')">7</button>
+				<button type="button" class="num" value="8" onclick="space('8')">8</button>
+				<button type="button" class="num" value="9" onclick="space('9')">9</button>
+				<button type="button" class="operator" value="*" onclick="space('*')">*</button><br>
+				
+				<!--Line 4-->				
+				<button type="button" class="num" value="0" onclick="space('0')">0</button>
+				<button type="button" class="num" value="." onclick="space('.')">.</button>
+				<button type="button" class="operator" value="/" onclick="space('/')">/</button>
+				<button type="button" class="operator" value="%" onclick="space('%')">%</button><br>
+				
+				<!--Line 5-->
+				<button type="button" class="equal" onclick="equal()">=</button>
+				<button type="button" onclick="clearing()" class="clear">Clear</button>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+	background-color: #e0fdff;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h1 {
+	font-size: 64px;
+}
+
+h2 {
+	font-size: 45px;
+}
+
+#center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+#container {
+	text-align: center;
+}
+
+.button {
+	border-radius: 25%;
+	border: none;
+	border-color: #63ffff;
+	background-color: #63ffff;
+	color: black;
+	padding: 10px 45px;
+	font-size: 20px;
+	margin: 20dp;
+	outline: none;
+}
+
+.button:hover {
+	background-color: #5ae8e8;
+}
